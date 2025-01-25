@@ -1,9 +1,9 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-west-1:798223350085:task-definition/DemoGitActions:11",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:957172219797:task-definition/DemoGitActions:1",
     "containerDefinitions": [
         {
             "name": "iris_pred",
-            "image": "798223350085.dkr.ecr.us-west-1.amazonaws.com/iris_pred:latest",
+            "image": "957172219797.dkr.ecr.us-eas2-1.amazonaws.com/iris_pred:latest",
             "cpu": 0,
             "portMappings": [
                 {
@@ -34,8 +34,8 @@
         }
     ],
     "family": "DemoGitActions",
-    "taskRoleArn": "arn:aws:iam::798223350085:role/FULLSTACKDS_ROLE1",
-    "executionRoleArn": "arn:aws:iam::798223350085:role/ecsTaskExecutionRole",
+    "taskRoleArn": "arn:aws:iam::957172219797:role/FULLSTACKDS_ROLE1",
+    "executionRoleArn": "arn:aws:iam::957172219797:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
     "revision": 11,
     "volumes": [],
@@ -87,7 +87,7 @@
         "operatingSystemFamily": "LINUX"
     },
     "registeredAt": "2025-01-18T19:15:38.139Z",
-    "registeredBy": "arn:aws:iam::798223350085:root",
+    "registeredBy": "arn:aws:iam::957172219797:root",
     "enableFaultInjection": false,
     "tags": []
 }
