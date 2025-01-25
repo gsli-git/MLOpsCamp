@@ -12,7 +12,7 @@ app = FastAPI()
 # Load the pre-trained model
 model = joblib.load("iris_model.joblib")
 
-#r = redis.Redis(host="localhost", port=6379, db=0)
+#r = redis.Redis(host="localhost", port=6379, db=0)  # add junk comments for trigging CI/CD purpose
 
 # Define the input data model
 class IrisData(BaseModel):
